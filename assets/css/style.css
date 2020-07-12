@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.header .container-fluid .text-center .text-yellow {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 45px 10px 15px 10px;
+}
+
+h1 {
+    font-weight: bolder;
+}
+
+
+
+
+body {
+    background-image: linear-gradient(blue,  rgb(105, 209, 250));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.search {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color:lightblue;
+}
+
+.search input:focus {
+    background-color: rgb(105, 209, 250);
+}
+
+.location .city-and-state {
+    color: darkblue;
+    font-style: italic;
+    font-size: 75px;
+    font-weight: bold;   
+}
+
+.location .time-and-date {
+    font-weight: normal;
+    font-size: 45px;
+    color: white;
+}
+
+.weather {
+    font-weight: normal;
+}
+
+.application {
+    flex: 1 1 100%;
+    padding: 20px 15px 20px;
+    align-items: center;
+    text-align: center;
+    outline: 5px ;
+}
+
+.weather .temperature {
+    color: yellow;
+    font-size: 50px;
+
+}
+
+.weather .condition {
+    color: seashell;
+    font-size: large;
+}
+
+.col-lg-8 .card-primary {
+    background-color: blue;
+}
+
+#srchBtn {
+    width: 100%;
+    max-width: 70px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    background-color:lightblue;
+}
+
+ul li {
+    list-style: none;
+    
+}
